@@ -1,6 +1,6 @@
 [build]
   base = "."
   command = "npm run build"
-  publish = "out"
+  publish = ".next"
 [functions]
   node_bundler = "esbuild"
